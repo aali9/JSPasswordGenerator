@@ -14,4 +14,10 @@ Then the input should be validated and at least one character type should be sel
 When all prompts are answered
 Then a password is generated that matches the selected criteria
 When the password is generated
-Then the password is either displayed in an alert or written to the page
+Then the password is either displayed in an alert or written to the page 
+
+Links 
+
+https://github.com/aali9/JSPasswordGenerator
+
+https://aali9.github.io/JSPasswordGenerator/
