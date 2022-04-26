@@ -9,11 +9,12 @@ const specialCharacters = [ "!", "#", "$", "%", "&", "(", ")", "*", "+", ",", "-
 function generatePassword() {
   let choices = []
 
-  var pw = prompt("Please choose a length of between 8 and 128 characters")
-  if (pw < 8 || pw > 128) {
-    alert("Incorrect password length")
-    generatePassword()
-  } else if (pw === '' || isNaN(pw)) {
-    alert("Please enter valid password between 8 and 128")
-    generatePassword()
-  }
+  var passwordLenght= prompt ("Please choose a lenght between 8 and 128 characters")
+  if (passwordLenght<8 || passwordLenght >128){
+    alert ("Incorrect password lenght")
+    generatePassword ()
+  } else if (passwordLenght === '' || isNaN(passwordLenght)) {
+    alert ("Please enter valid password between 8 and 128")
+    generatePassword ()
+  } 
+  
